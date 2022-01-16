@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+#showcase {
+    background-image: url(image/beachshowcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size:18px;
+    text-decoration:none;
+    color: brown;
+    border: brown 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: brown;
+    color: #fff;
+}
+
+#section-a {
+    padding: 20px;
+    background: brown;
+    color: white;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #dad1d1;
+    color: brown;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background: brown;
+}
+
+#section-c .box-2 {
+    background: #f8f6f6;
+}
